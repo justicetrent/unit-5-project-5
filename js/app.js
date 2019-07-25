@@ -13,7 +13,7 @@
 
 let data;
 let employee;
-//function randomEmployee(){
+function randomEmployee(){
     fetch('https://randomuser.me/api/?results=12&nat=us')
     .then(response => response.json())
 
@@ -41,5 +41,5 @@ let employee;
 
     })
 
-//}
-//randomEmployee();
+}
+randomEmployee();
