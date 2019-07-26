@@ -8,9 +8,11 @@ let employee;
 // & created a function to store all of the information being generated.
 function randomEmployee(){
     fetch('https://randomuser.me/api/?results=12&nat=us')
-    .then(response => response.json()) // in the first promise, utilized json as a container that travels from the fetch API to my webpage. 
+    .then(response => response.json()) 
+    // in the first promise, utilized json as a container that travels from the fetch API to my webpage. 
 
-    .then(function(data){ // second promise, holds the all of the data that needs to be displayed for each employee.
+    .then(function(data){ 
+        // second promise, holds the all of the data that needs to be displayed for each employee.
         //used forEach to iterate through all of the information that needs to be displayed per employee.
         
         eachEmployee = data.results
@@ -73,8 +75,3 @@ $('#gallery').on ('click', ".card", function () {
     i = ($(this).index());
     modalDisplay(i);
 });
-
-
-
-
-

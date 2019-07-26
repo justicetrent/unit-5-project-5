@@ -17,6 +17,25 @@ body {
     font-family: "Nunito", sans-serif;
     text-align: center;
     background:#000080;
+
+    /* -webkit-animation: AnimationName 25s ease infinite;
+    -moz-animation: AnimationName 25s ease infinite;
+    animation: AnimationName 25s ease infinite;
+
+    @-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+    @-moz-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+    @keyframes AnimationName { 
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%} */
 }
 
 header {
@@ -131,25 +150,7 @@ header h1 {
     bottom: 0;
     left: 0;
     background: #00000a69;
-
-
-    /* position: fixed;
-    display: none;
-    left: 0px;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    background: rgba(255,255,255,.8);
-    z-index: 999; */
 }
-
-/* .blur {
-    filter: blur(5px);
-    -webkit-filter: blur(5px);
-    -moz-filter: blur(5px);
-    -o-filter: blur(5px);
-    -ms-filter: blur(5px);
-} */
 
 .modal {
     position: relative;
